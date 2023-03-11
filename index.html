@@ -1,0 +1,1092 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ITBM TESTER</title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+  <script src="scripts/scriptsItbm.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+   <!-- Modal 1º questionario -->
+   <div class="modal fade" id="quiz01" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-backdrop="static"
+   data-keyboard="false">
+   <div class="modal-dialog modal-dialog-MTBI">
+     <div class="modal-content modal-content-MTBI">
+       <div class="modal-header">
+         <div class="container1">
+           <div class="row">
+             <div class="voltarStatusQuiz1 StatusQuiz1  Numero" name="1">1º</div>
+             <div class="voltarStatusQuiz2 StatusQuiz1  Numero" name="2">2º</div>
+             <div class="voltarStatusQuiz3 StatusQuiz1  Numero" name="3">3º</div>
+             <div class="voltarStatusQuiz4 StatusQuiz1  Numero" name="4">4º</div><br><br><br><br>
+             <label class="text-scope">1º QUESTIONÁRIO COMO VOCÊ INTERAGE COM O MUNDO?</label>
+           </div>
+         </div>
+       </div>
+       <div class="modal-body-quis1">
+         <div class="container">
+           <div class="content first-content">
+             <div class="row align-items-start">
+               <table class="table">
+                 <thead>
+                   <tr class="tr">
+                     <th scope="scopeA"><label class="scopeA">E</label></th>
+                   </tr>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz01" type="radio" name="1" value="E"><label
+                           class="text">MAIS FALANTE</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz01" type="radio" name="2" value="E"><label
+                           class="text">MAIS
+                           ABERTO</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz01" type="radio" name="3" value="E"><label
+                           class="text">IMPULSIVO</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz01" type="radio" name="4" value="E"><label
+                           class="text">MAIS
+                           SOCIAL</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz01" type="radio" name="5" value="E"><label class="text">AGE
+                           E DEPOIS PENSA</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td> <input class="form-check-input quiz01" type="radio" name="6" value="E"><label
+                           class="text">ENTUSIASMADO</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz01" type="radio" name="7" value="E"><label
+                           class="text">BARULHO</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz01" type="radio" name="8" value="E"><label
+                           class="text">EXPRESSIVO</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz01" type="radio" name="9" value="E"><label
+                           class="text">FORÇA</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz01" type="radio" name="10" value="E"><label
+                           class="text">AGITAÇÃO</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz01" type="radio" name="11" value="E"><label
+                           class="text">MAIS DO QUE OUVE</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz01" type="radio" name="12" value="E"><label
+                           class="text">EXPANSIVO</label>
+                       </td>
+                     </tr>
+                   </div>
+                 </thead>
+               </table>
+             </div>
+           </div>
+
+           <div class="content second-content">
+             <div class="row align-items-start">
+               <table class="table">
+                 <thead>
+                   <tr>
+                     <th scope="col"><label class="scopeB">I</label></th>
+                   </tr>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz01" type="radio" name="1" value="I"><label
+                           class="text">MAIS OUVINTE</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz01" type="radio" name="2" value="I"><label
+                           class="text">RESERVADO</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz01" type="radio" name="3" value="I"><label
+                           class="text">RECATADO</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz01" type="radio" name="4" value="I"><label
+                           class="text">MAIS
+                           INDIVIDUAL</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz01" type="radio" name="5" value="I"><label
+                           class="text">PENSA DEPOIS AGE</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz01" type="radio" name="6" value="I"><label
+                           class="text">QUIETO</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz01" type="radio" name="7" value="I"><label
+                           class="text">SILENCIO</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz01" type="radio" name="8" value="I"><label
+                           class="text">CONTIDO</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz01" type="radio" name="9" value="I"><label
+                           class="text">DELICADEZA</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz01" type="radio" name="10" value="I"><label
+                           class="text">CALMARIA</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz01" type="radio" name="11" value="I"><label
+                           class="text">OUVE MAIS QUE FALA</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz01" type="radio" name="12" value="I"><label
+                           class="text">INTROSPECTIVOL</label>
+                       </td>
+                     </tr>
+                   </div>
+                 </thead>
+               </table>
+             </div>
+           </div>
+         </div>
+       </div>
+       <div class="modal-footer">
+         <button type="button" Class="btn btn-MTBI btn-primary" data-toggle="modal" id="voltar">Voltar
+           01</button>
+         <button onclick="resultado()" type="button" Class="btn btn-MTBI btn-success" data-toggle="modal">Questionário
+           02</button>
+           <a href="/User">
+             <button type="button" id="limpar" class="btn btn-MTBI btn-danger">Sair</button></a>
+         </div>
+       </div>
+     </div>
+   </div>
+ </div>
+ <!-- Modal 1º questionario -->
+
+ <!-- Modal 2º questionario -->
+ <div class="modal fade" id="quiz02" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-backdrop="static"
+   data-keyboard="false">
+   <div class="modal-dialog modal-dialog-MTBI">
+      <div class="modal-content modal-content-MTBI">
+       <div class="modal-header">
+         <div class="container1">
+           <div class="row">
+             <div class="voltarStatusQuiz1  StatusQuiz2 Numero" name="1">1º</div>
+             <div class="voltarStatusQuiz02 StatusQuiz Numero" name="2">2º</div>
+             <div class="voltarStatusQuiz03 StatusQuiz Numero" name="3">3º</div>
+             <div class="voltarStatusQuiz04 StatusQuiz Numero" name="4">4º</div><br><br><br><br>
+             <label class="text-scope">2º QUESTIONÁRIO COMO VOCÊ
+               PERCEBE E ASSIMILA AS
+               INFORMAÇÕES?</label>
+           </div>
+         </div>
+       </div>
+       <div class="modal-body-quis2">
+         <div class="container">
+           <div class="content first-content">
+             <div class="row align-items-start">
+               <table class="table">
+                 <thead>
+                   <tr>
+                     <th scope="scopeA"><label class="scopeA">S</label></th>
+                   </tr>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz02" type="radio" name="13" value="S"><label
+                           class="text">PES-NO-CHAO</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz02" type="radio" name="14" value="S"><label
+                           class="text">EXPERIENCIA</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz02" type="radio" name="15" value="S"><label
+                           class="text">VISAO FOCADA EM DETALHES</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz02" type="radio" name="16" value="S"><label
+                           class="text">PRATICIDADE</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz02" type="radio" name="17" value="S"><label
+                           class="text">ESPECIFICO E LITERAL</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td> <input class="form-check-input quiz02" type="radio" name="18" value="S"><label
+                           class="text">INFORMACOES PASSO A PASSO</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz02" type="radio" name="19" value="S"><label
+                           class="text">REALIDADE</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz02" type="radio" name="20" value="S"><label
+                           class="text">SEGURANÇA</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz02" type="radio" name="21" value="S"><label
+                           class="text">PRESENTE</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz02" type="radio" name="22" value="S"><label
+                           class="text">FATOS</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz02" type="radio" name="23" value="S"><label
+                           class="text">FAZ</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz02" type="radio" name="24" value="S"><label
+                           class="text">CONCRETO</label>
+                       </td>
+                     </tr>
+                   </div>
+                 </thead>
+               </table>
+             </div>
+           </div>
+
+           <div class="content second-content">
+             <div class="row align-items-start">
+               <table class="table">
+                 <thead>
+                   <tr>
+                     <th scope="col"><label class="scopeB">N</label></th>
+                   </tr>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz02" type="radio" name="13" value="N"><label
+                           class="text">CHEIO DE IDEIAS</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz02" type="radio" name="14" value="N"><label
+                           class="text">INSTITIVO</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz02" type="radio" name="15" value="N"><label
+                           class="text">VISÃO GLOBAL</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz02" type="radio" name="16" value="N"><label
+                           class="text">IMAGINAÇÃO</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz02" type="radio" name="17" value="N"><label
+                           class="text">METAFORAS E ANALOGIAS</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz02" type="radio" name="18" value="N"><label
+                           class="text quiz02">INFORMAÇOES DE FORMA DIRETA</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz02" type="radio" name="19" value="N"><label
+                           class="text">INTUIÇÃO</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz02" type="radio" name="20" value="N"><label
+                           class="text">LIBERDADE</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz02" type="radio" name="21" value="N"><label
+                           class="text">FUTURO</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz02" type="radio" name="22" value="N"><label
+                           class="text">POSSIBILIDADE</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz02" type="radio" name="23" value="N"><label
+                           class="text">CRIA</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz02" type="radio" name="24" value="N"><label
+                           class="text">ABSTRATO</label>
+                       </td>
+                     </tr>
+                   </div>
+                 </thead>
+               </table>
+             </div>
+           </div>
+         </div>
+       </div>
+       <div class="modal-footer">
+         <button type="button" Class="btn btn-MTBI btn-primary" data-toggle="modal" onclick="voltarQuiz1()" id="voltarQ1">Voltar
+           01</button>
+         <button type="button" onclick="resultado2()" Class="btn btn-MTBI btn-success" data-toggle="modal">Questionário 03
+         </button>
+         <a href="/User">
+          <button type="button" id="limpar" class="btn btn-MTBI btn-danger">Sair</button></a>
+       </div>
+       </div>
+     </div>
+   </div>
+ </div>
+ <!-- Modal 2º questionario -->
+
+ <!-- Modal 3º questionario -->
+ <div class="modal fade" id="quiz03" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-backdrop="static"
+   data-keyboard="false">>
+   <div class="modal-dialog modal-dialog-MTBI">
+      <div class="modal-content modal-content-MTBI">
+       <div class="modal-header">
+         <div class="container1">
+           <div class="row">
+             <div class="voltarStatusQuiz01 StatusQuiz3 Numero" name="1">1º</div>
+             <div class="voltarStatusQuiz02 StatusQuiz4 Numero" name="2">2º</div>
+             <div class="voltarStatusQuiz03 StatusQuiz Numero" name="3">3º</div>
+             <div class="voltarStatusQuiz04 StatusQuiz Numero" name="4">4º</div><br><br><br><br>
+             <label class="text-scope"> 3º QUESTIONÁRIO COMO VOCÊ PERCEBE E ASSIMILA AS INFORMAÇÕES?</label>
+           </div>
+         </div>
+       </div>
+       <div class="modal-body-quis3">
+
+         <div class="container">
+           <div class="content first-content">
+             <div class="row align-items-start">
+               <table class="table">
+                 <thead>
+                   <tr>
+                     <th scope="scopeA"><label class="scopeA">T</label></th>
+                   </tr>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz03" type="radio" name="25" value="T"><label
+                           class="text">ANALISADOR</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz03" type="radio" name="26" value="T"><label
+                           class="text">OBJETIVO</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz03" type="radio" name="27" value="T"><label
+                           class="text">RAZÃO</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz03" type="radio" name="28" value="T"><label
+                           class="text">MAIS LOGICO QUE SENTIMENTAL</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz03" type="radio" name="29" value="T"><label
+                           class="text">CRITICO</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td> <input class="form-check-input quiz03" type="radio" name="30" value="T"><label
+                           class="text">OBSERVADOR</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz03" type="radio" name="31" value="T"><label
+                           class="text">DECIDE BASEADO EM PRINCIPÍOS</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz03" type="radio" name="32" value="T"><label
+                           class="text">PENSAMENTO</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz03" type="radio" name="33" value="T"><label
+                           class="text">CONVICENTE</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz03" type="radio" name="34" value="T"><label
+                           class="text">MAIS FRIO</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz03" type="radio" name="35" value="T"><label
+                           class="text">NATURALMENTE VÊ FALHA TENDE SER CRITICO</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz03" type="radio" name="36" value="T"><label
+                           class="text">JUSTIÇA</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz03" type="radio" name="37" value="T"><label
+                           class="text">MOTIVADO PELO DESEJO DE REALIZAÇÃO</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz03" type="radio" name="38" value="T"><label
+                           class="text">FIRME</label>
+                       </td>
+                     </tr>
+                   </div>
+                 </thead>
+               </table>
+             </div>
+           </div>
+
+           <div class="content second-content">
+             <div class="row align-items-start">
+               <table class="table">
+                 <thead>
+                   <tr>
+                     <th scope="col"><label class="scopeB">F</label></th>
+                   </tr>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz03" type="radio" name="25" value="F"><label
+                           class="text">SIMPATIZADOR</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz03" type="radio" name="26" value="F"><label
+                           class="text">EMOCIONAL</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz03" type="radio" name="27" value="F"><label
+                           class="text">CORAÇÃO</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz03" type="radio" name="28" value="F"><label
+                           class="text">MAIS HUMANO QUE RACIONAL</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz03" type="radio" name="29" value="F"><label
+                           class="text">ACEITÁVEL</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz03" type="radio" name="30" value="F"><label
+                           class="text">PARTICIPANTE</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz03" type="radio" name="31" value="F"><label
+                           class="text">DECIDE BASEADOS EM VALORES</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz03" type="radio" name="32" value="F"><label
+                           class="text">SENTIMENTO</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz03" type="radio" name="33" value="F"><label
+                           class="text">COMOVENTE</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz03" type="radio" name="34" value="F"><label
+                           class="text">MAIS CALOROSO</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz03" type="radio" name="35" value="F"><label
+                           class="text">NATURALMENTE GOSTA DE AGRADAR OS OUTROS</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz03" type="radio" name="36" value="F"><label
+                           class="text">HARMONIA</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz03" type="radio" name="37" value="F"><label
+                           class="text">MOTIVADO PELO DESEJO DE SER APRECIADO</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz03" type="radio" name="38" value="F"><label
+                           class="text">GENTIL</label>
+                       </td>
+                     </tr>
+                   </div>
+                 </thead>
+               </table>
+             </div>
+           </div>
+         </div>
+       </div>
+       <div class="modal-footer">
+         <button type="button" Class="btn btn-MTBI btn-primary" onclick="voltarQuiz2()" id="voltarQ2">Voltar 02</button>
+         <button type="button" onclick="resultado3()" Class="btn btn-MTBI btn-success" data-toggle="modal">Questionário
+           04</button>
+           <a href="/User">
+             <button type="button" id="limpar" class="btn btn-MTBI btn-danger">Sair</button></a>
+         </div>
+       </div>
+     </div>
+   </div>
+ </div>
+ <!-- Modal 3º questionario -->
+
+ <!-- Modal 4º questionario -->
+ <div class="modal fade" id="quiz04" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-backdrop="static"
+   data-keyboard="false">>
+   <div class="modal-dialog modal-dialog-MTBI">
+      <div class="modal-content modal-content-MTBI">
+       <div class="modal-header">
+         <div class="container1">
+           <div class="row">
+           <div class="StatusQuiz01 Numero" name="1">1º</div>
+           <div class="StatusQuiz02 Numero" name="2">2º</div>
+           <div class="StatusQuiz03 Numero" name="3">3º</div>
+           <div class="StatusQuisFinal Numero" name="4">4º</div><br><br><br><br>
+            <label class="text-scope">4º QUESTIONÁRIO COMO VOCÊ
+             PREFERE ORGANIZAR SUA VIDA?</label>
+           </div>
+         </div>
+          </div>
+       <div class="modal-body-quis4">
+
+         <div class="container">
+           <div class="content first-content">
+             <div class="row align-items-start">
+               <table class="table">
+                 <thead>
+                   <tr>
+                     <th scope="scopeA"><label class="scopeA">J</label></th>
+                   </tr>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz04" type="radio" name="39" value="J"><label
+                           class="text">TOMAR DECISÕES PRONTAMENTE</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz04" type="radio" name="40" value="J"><label
+                           class="text">PENSA ESTRUTURADAMENTE</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz04" type="radio" name="41" value="J"><label
+                           class="text">ORGANIZA A VIDA </label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz04" type="radio" name="42" value="J"><label
+                           class="text">PLANEJADO</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz04" type="radio" name="43" value="J"><label
+                           class="text">DECIDIDO</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td> <input class="form-check-input quiz04" type="radio" name="44" value="J"><label
+                           class="text">CONTROLADO</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz04" type="radio" name="45" value="J"><label
+                           class="text">LIMITA QUANTIADDE DE INFORMAÇÃO</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz04" type="radio" name="46" value="J"><label
+                           class="text">DETERMINADO</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz04" type="radio" name="47" value="J"><label
+                           class="text">VALORIZA A ORDEM</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz04" type="radio" name="48" value="J"><label
+                           class="text">PREFER O QUE E CONHECIDO</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz04" type="radio" name="49" value="J"><label
+                           class="text">SISTEMÁTICO</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz04" type="radio" name="50" value="J"><label
+                           class="text">DISCIPLINADO</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz04" type="radio" name="51" value="J"><label
+                           class="text">SEGUE A ROTINA</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz04" type="radio" name="52" value="J"><label
+                           class="text">PERSEGUE OBJETIVOS</label>
+                       </td>
+                     </tr>
+                   </div>
+                 </thead>
+               </table>
+             </div>
+           </div>
+
+           <div class="content second-content">
+             <div class="row align-items-start">
+               <table class="table">
+                 <thead>
+                   <tr>
+                     <th scope="col"><label class="scopeB">P</label></th>
+                   </tr>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz04" type="radio" name="39" value="P"><label
+                           class="text">TEM DIFICILDADE PARA TOMAR DECIÕES</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz04" type="radio" name="40" value="P"><label
+                           class="text">PENSA GLOBALMENTE</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz04" type="radio" name="41" value="P"><label
+                           class="text">DEIXA A VIDA ACONTECER</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz04" type="radio" name="42" value="P"><label
+                           class="text">FLEXIVEL</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz04" type="radio" name="43" value="P"><label
+                           class="text">IMPULSIVO</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz04" type="radio" name="44" value="P"><label
+                           class="text">ESPONTÂNEO</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz04" type="radio" name="45" value="P"><label
+                           class="text">OUVE TODOS OS LADOS</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz04" type="radio" name="46" value="P"><label
+                           class="text">DEDICADO</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz04" type="radio" name="47" value="P"><label
+                           class="text">VALORIZA A LIBERDADE</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz04" type="radio" name="48" value="P"><label
+                           class="text">GOSTA MAIS DO NOVO</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz04" type="radio" name="49" value="P"><label
+                           class="text">IMPROVISADO</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz04" type="radio" name="50" value="P"><label
+                           class="text">SEM REGRAS</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz04" type="radio" name="51" value="P"><label
+                           class="text">ABERTO AS MUDANÇAS</label>
+                       </td>
+                     </tr>
+                   </div>
+                   <div class="col-2">
+                     <tr>
+                       <td>
+                         <input class="form-check-input quiz04" type="radio" name="52" value="P"><label
+                           class="text">IDETIFICA OPORTUNIDADES</label>
+                       </td>
+                     </tr>
+                   </div>
+                 </thead>
+               </table>
+             </div>
+           </div>
+         </div>
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-MTBI btn-primary" data-toggle="modal" onclick="voltarQuiz3()" id="voltarQ3">Voltar
+           03</button>
+         <button type="button" id="resultado" onclick="resultado4()" Class="btn btn-MTBI btn-success">RESULTADO</button>
+         <a href="/User">
+           <button type="button" id="limpar" class="btn btn-MTBI btn-danger">Sair</button></a>
+       </div>
+       </div>
+     </div>
+   </div>
+ </div>
+ <!-- Modal 4º questionario -->
+</body>
+
+<script type="text/javascript" src="/js/jquery.mask.js"></script>
+
+</html>

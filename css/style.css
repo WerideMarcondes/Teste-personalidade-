@@ -1,0 +1,141 @@
+
+
+/* stilos da modal quiz 01*/
+h1{
+    text-align: center;
+ }
+ 
+ .text-scope{
+     text-align: center;
+     font-size: 20px;
+     font-weight: bold;
+ }
+ 
+ .Numero{
+     border-radius: 50%;
+     width: 50px;
+     height: 50px;
+     font-size: 25px;
+     color:black;
+     margin-left: 70px;
+     float: left;
+ 
+ }
+ 
+ .scopeA {
+     font-size: 20px;
+     margin-left: 100px;
+ }
+ 
+ .scopeB {
+     font-size: 20px;
+     margin-left: 100px;
+ }
+ 
+
+ 
+ /* stilos da modal quiz01 */
+ .modal-body-quis1{
+     background: rgb(204, 169, 196);
+    
+    
+ 
+ }
+ 
+ /* stilos da modal quiz02 */
+ .modal-body-quis2 {
+     background: rgb(148, 179, 241);
+     
+ }
+ 
+ /* stilos da modal quiz03 */
+ .modal-body-quis3 {
+     background: rgb(189, 240, 236);
+    
+ }
+ 
+ /* stilos da modal quiz04 */
+ .modal-body-quis4 {
+     background: rgb(218, 241, 112);
+     
+ }
+ 
+ .modal-title {
+     font-size: 10px;
+     
+ }
+ 
+ .modal-content{
+    box-shadow:2px 2px 2px 2px  rgb(241, 238, 238);
+     width: 1100px;
+     
+ }
+ 
+ 
+ .modal-dialog{
+     margin-left: 100px;
+ }
+ 
+ 
+ /* stilos da modal quiz 01*/
+ .container {
+     display: flex;
+     justify-content: center;
+ 
+ }
+ .modal-header{
+    justify-content: center;
+     display: flex;
+ 
+ }
+ 
+ 
+ /*Radios dos questionarios*/
+ .form-check-input {
+     height: 20px;
+     width: 20px;
+     margin-left: 20px;
+ 
+ }
+ .input-group-text-scope{
+     font-size: 10px;
+     margin-left: 10px;
+ }
+ 
+ /*labels dos questionarios*/
+ .text {
+     font-size: 15px;
+     margin-left: 30px;
+     font-weight: bold;
+ }
+ 
+ /*botoes*/
+ .btn {
+     height: 40px;
+     width: 150px;
+     font-size: 15px;
+     margin-right: 150px;
+ 
+ }
+ 
+ .table {
+     width: 500px;
+     overflow-y: auto;
+     margin-left: 20px;
+ }
+ 
+ 
+ .Swal.fire{
+     font-size: 50px;
+     text-align: justify;
+ }
+ 
+ 
+ @keyframes neon{
+     from{
+         filter: drop-shadow(0 0 0 var(--cor-neon));
+     }to{
+         filter: drop-shadow(0 0 30px var(--cor-neon));
+     }
+ 
+ }
